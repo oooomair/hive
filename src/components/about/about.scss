@@ -1,0 +1,336 @@
+.about {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.about__top {
+    display: flex;
+    width: 1100px;
+}
+
+.about__info {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 0 20px;
+
+    h1 {
+        font-size: 3rem;
+        position: relative;
+        padding: 0 0 5px 0;
+
+        &:after {
+            content: "";
+            background: #0E2F2E;
+            position: absolute;
+            bottom: 0;
+            left: 15%;
+            height: 5px;
+            width: 70%;
+            border-radius: 10px;
+          }
+    }
+    p {
+        font-size: 1.1rem;
+        margin: 12px 0 20px;
+    }
+    button {
+        height: 45px;
+        width: 220px;
+        background-color: #0E2F2E;
+        color: #ececec;
+        font-weight: lighter;
+        border-radius: 5px;
+        border: none;
+    }
+}
+
+.about__pic{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    img {
+        width: 87%;
+        border-radius: 8px;
+    }
+}
+
+.about__bottom {
+    display: flex;
+    flex-flow: column;
+    width: 1000px;
+    margin: 40px 0;
+}
+
+.about__lpe {
+    display: flex;
+    margin: 10px 0;
+}   
+
+.about__lpe-info {
+    display: flex;
+    flex-flow: column;
+    margin-left: 15px;
+    padding: 5px 0;
+}
+
+.about__lpe-pic {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 1400px) {
+    .about__top {
+        width: 950px;
+    }
+    
+    .about__info {
+        h1 {
+            font-size: 2.7rem;
+            &:after {
+                height: 4px;
+              }
+        }
+        p {
+            font-size: 1rem;
+        }
+        button {
+            height: 40px;
+            width: 200px;
+        }
+    }
+    
+    .about__bottom {
+        width: 850px;
+    }
+
+    .about__lpe-pic {
+        img {
+            width: 75px;
+        }
+    }
+
+    .about__lpe-info {
+        h3 {
+            font-size: 1.2rem;
+        }
+        p {
+            font-size: 0.9rem;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .about__top {
+        width: 850px;
+    }
+    
+    .about__info {
+        h1 {
+            font-size: 2.5rem;
+            &:after {
+                height: 3px;
+              }
+        }
+        p {
+            font-size: 0.9rem;
+        }
+        button {
+            height: 35px;
+            width: 180px;
+        }
+    }
+    
+    .about__bottom {
+        width: 750px;
+    }
+
+    .about__lpe-pic {
+        img {
+            width: 65px;
+        }
+    }
+
+    .about__lpe-info {
+        padding: 0;
+        h3 {
+            font-size: 1.1rem;
+        }
+        p {
+            font-size: 0.8rem;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .about__top {
+        width: 700px;
+    }
+    
+    .about__info {
+        h1 {
+            font-size: 2.3rem;
+            &:after {
+                height: 3px;
+              }
+        }
+        p {
+            font-size: 0.8rem;
+        }
+        button {
+            height: 32px;
+            width: 160px;
+            font-size: 0.7rem;
+        }
+    }
+    
+    .about__bottom {
+        width: 600px;
+    }
+
+    .about__lpe-pic {
+        img {
+            width: 62px;
+        }
+    }
+
+    .about__lpe-info {
+        h3 {
+            font-size: 1rem;
+        }
+        p {
+            font-size: 0.7rem;
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .about__top {
+        width: 600px;
+    }
+    
+    .about__pic{
+        img {
+            width: 100%;
+        }
+    }
+    
+    .about__bottom {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .about__top {
+        width: 480px;
+        flex-flow: column;
+    }
+    
+    .about__info {
+        padding: 0;
+        margin-bottom: 10px;
+    }
+    
+    .about__pic{
+        img {
+            width: 60%;
+        }
+    }
+    
+    .about__bottom {
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .about__top {
+        width: 400px;
+    }
+    
+    .about__info {
+        h1 {
+            font-size: 2.1rem;
+            &:after {
+                height: 2px;
+              }
+        }
+        p {
+            font-size: 0.75rem;
+        }
+        button {
+            height: 30px;
+            width: 150px;
+            font-size: 0.6rem;
+        }
+    }
+    
+    .about__pic{
+        img {
+            width: 65%;
+        }
+    }
+    
+    .about__bottom {
+        width: 370px;
+        margin: 20px 0;
+    }
+
+    .about__lpe-pic {
+        img {
+            width: 58px;
+        }
+    }
+
+    .about__lpe-info {
+        margin: 0 0 0 10px;
+        h3 {
+            font-size: 0.9rem;
+        }
+        p {
+            font-size: 0.6rem;
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .about__top {
+        width: 350px;
+    }
+    
+    .about__pic{
+        img {
+            width: 80%;
+        }
+    }
+    
+    .about__bottom {
+        width: 320px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .about__top {
+        width: 320px;
+    }
+    
+    .about__bottom {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .about__top {
+        width: 280px;
+    }
+    
+    .about__bottom {
+        width: 260px;
+    }
+}

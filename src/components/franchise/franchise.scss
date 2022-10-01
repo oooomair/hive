@@ -1,0 +1,462 @@
+.franchise {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+    margin: 100px 0 80px;
+    width: 100%;
+}
+
+.franchise__title {
+    width: 100%;
+    border-top: 2px solid #0E2F2E;
+    border-bottom: 2px solid #0E2F2E;
+    padding: 8px 0;
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+.franchise__top {
+    display: flex;
+    width: 1000px;
+    padding: 50px 0;
+}
+
+.franchise__v {
+    display: flex;
+    flex-flow: column;
+    padding: 0 30px;
+    border-right: 1px solid #0E2F2E;
+
+    h4 {
+        font-size: 2.2rem;
+        padding-bottom: 5px;
+    } 
+    p {
+        font-size: 1.1rem;
+    }
+}
+
+.franchise__m {
+    display: flex;
+    flex-flow: column;
+    padding: 0 30px;
+    border-left: 1px solid #0E2F2E;
+
+    h4 {
+        font-size: 2.2rem;
+        padding-bottom: 5px;
+    }
+    p {
+        font-size: 1.1rem;
+    }
+}
+
+.franchise__bottom {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: 30px 0;
+    h2 {
+        font-size: 2.4rem;
+        margin-bottom: 15px;
+    }
+    button {
+        width: 250px;
+        height: 50px;
+        border-radius: 3px;
+        background: #0E2F2E;
+        color: #ececec;
+        font-weight: lighter;
+        margin-top: 35px;
+    }
+}
+
+.franchise__icons {
+    display: grid;
+    grid-template-areas: 
+    "trademark license training operations ongoing";
+    
+    // grid-template-areas: 
+    // "trademark license"
+    // "training operations"
+    // "ongoing ongoing";
+}
+
+.trademark {
+    grid-area: trademark;
+}
+.license {
+    grid-area: license;
+}
+.training {
+    grid-area: training;
+}
+.operations {
+    grid-area: operations;
+}
+.ongoing {
+    grid-area: ongoing;
+}
+
+.franchise__icon {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: 0 20px;
+
+    img {
+        width: 120px;
+    }
+    span {
+        font-size: 1rem;
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .franchise__title {
+        h1 {
+            font-size: 2.7rem;
+        }
+    }
+    
+    .franchise__top {
+        width: 900px;
+    }
+    
+    .franchise__v {
+        padding: 0 30px;
+        h4 {
+            font-size: 2rem;
+        } 
+        p {
+            font-size: 1rem;
+        }
+    }
+    
+    .franchise__m {
+        padding: 0 30px;
+        h4 {
+            font-size: 2rem;
+        }
+        p {
+            font-size: 1rem;
+        }
+    }
+    
+    .franchise__bottom {
+        h2 {
+            font-size: 2.1rem;
+        }
+        button {
+            width: 230px;
+            height: 45px;
+        }
+    }
+
+    .franchise__icon {
+        margin: 0 10px;
+
+        img {
+            width: 100px;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .franchise__title {
+        h1 {
+            font-size: 2.4rem;
+        }
+    }
+    
+    .franchise__top {
+        width: 800px;
+    }
+    
+    .franchise__v {
+        padding: 0 30px;
+        h4 {
+            font-size: 1.8rem;
+        } 
+        p {
+            font-size: 0.9rem;
+        }
+    }
+    
+    .franchise__m {
+        padding: 0 30px;
+        h4 {
+            font-size: 1.8rem;
+        } 
+        p {
+            font-size: 0.9rem;
+        }
+    }
+    
+    .franchise__bottom {
+        h2 {
+            font-size: 2rem;
+        }
+        button {
+            width: 220px;
+            height: 40px;
+            font-size: 0.8rem;
+        }
+    }
+
+    .franchise__icon {
+        margin: 0;
+        img {
+            width: 85px;
+        }
+        span {
+            font-size: 0.9rem;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .franchise__title {
+        h1 {
+            font-size: 2.2rem;
+        }
+    }
+    
+    .franchise__top {
+        width: 650px;
+    }
+    
+    .franchise__v {
+        padding: 0 20px;
+        h4 {
+            font-size: 1.7rem;
+        } 
+        p {
+            font-size: 0.9rem;
+        }
+    }
+    
+    .franchise__m {
+        padding: 0 20px;
+        h4 {
+            font-size: 1.7rem;
+        } 
+        p {
+            font-size: 0.9rem;
+        }
+    }
+    
+    .franchise__bottom {
+        h2 {
+            font-size: 1.9rem;
+        }
+        button {
+            width: 200px;
+            height: 40px;
+            font-size: 0.7rem;
+        }
+    }
+
+    .franchise__icon {
+        margin: 0;
+        img {
+            width: 70px;
+        }
+        span {
+            font-size: 0.8rem;
+            width: 80%;
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .franchise__title {
+        h1 {
+            font-size: 2rem;
+        }
+    }
+    
+    .franchise__top {
+        width: 600px;
+    }
+    
+    .franchise__v {
+        padding: 0 20px 0 10px;
+        h4 {
+            font-size: 1.5rem;
+        } 
+        p {
+            font-size: 0.8rem;
+        }
+    }
+    
+    .franchise__m {
+        padding: 0 10px 0 20px;
+        h4 {
+            font-size: 1.5rem;
+        } 
+        p {
+            font-size: 0.8rem;
+        }
+    }
+    
+    .franchise__bottom {
+        h2 {
+            font-size: 1.6rem;
+        }
+        button {
+            width: 190px;
+            height: 35px;
+            font-size: 0.7rem;
+        }
+    }
+
+    .franchise__icon {
+        margin: 0;
+        img {
+            width: 70px;
+        }
+        span {
+            font-size: 0.7rem;
+            width: 80%;
+        }
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .franchise__title {
+        h1 {
+            font-size: 1.7rem;
+        }
+    }
+    
+    .franchise__top {
+        width: 450px;
+        padding: 50px 0 30px;
+    }
+    
+    .franchise__v {
+        padding: 0 20px 0 0;
+        h4 {
+            font-size: 1.3rem;
+        } 
+        p {
+            font-size: 0.75rem;
+        }
+    }
+    
+    .franchise__m {
+        padding: 0 0 0 20px;
+        h4 {
+            font-size: 1.3rem;
+        } 
+        p {
+            font-size: 0.75rem;
+        }
+    }
+    
+    .franchise__bottom {
+        h2 {
+            font-size: 1.4rem;
+        }
+        button {
+            width: 150px;
+            height: 30px;
+            font-size: 0.6rem;
+        }
+    }
+
+    .franchise__icons {
+        grid-template-areas: 
+        "trademark license"
+        "training operations"
+        "ongoing ongoing";
+    }
+
+    .franchise__icon {
+        margin: 3px 0;
+        img {
+            width: 70px;
+        }
+        span {
+            font-size: 0.65rem;
+            width: 80%;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .franchise__title {
+        h1 {
+            font-size: 1.7rem;
+        }
+    }
+    
+    .franchise__top {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .franchise__title {
+        h1 {
+            font-size: 1.7rem;
+        }
+    }
+    
+    .franchise__top {
+        width: 330px;
+    }
+
+    .franchise__v {
+        h4 {
+            font-size: 1.3rem;
+        } 
+        p {
+            font-size: 0.7rem;
+        }
+    }
+    
+    .franchise__m {
+        h4 {
+            font-size: 1.3rem;
+        }
+        p {
+            font-size: 0.7rem;
+        }
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .franchise__title {
+        h1 {
+            font-size: 1.7rem;
+        }
+    }
+    
+    .franchise__top {
+        width: 280px;
+    }
+
+    .franchise__v {
+        h4 {
+            font-size: 1.2rem;
+        } 
+        p {
+            font-size: 0.6rem;
+        }
+    }
+    
+    .franchise__m {
+        h4 {
+            font-size: 1.2rem;
+        }
+        p {
+            font-size: 0.6rem;
+        }
+    }
+}
+

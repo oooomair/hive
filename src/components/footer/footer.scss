@@ -1,0 +1,147 @@
+.footer {
+    background: #0E2F2E;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 100px;
+    padding: 30px 0;
+     img {
+        width: 170px;
+     }
+}
+
+.footer__links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    img {
+        width: 25px;
+        margin: 0 10px;
+    }
+}
+
+.footer__info {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+    img {
+        width: inherit;
+        height: 17px;
+    }
+    span {
+        font-size: 1.2rem;
+        margin-left: 15px;
+        color: #ececec;
+        font-weight: lighter;
+        font-size: 0.9rem;
+    }
+}
+
+.footer__copywrite {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    padding-top: 25px;
+    border-top: #ececec75 1px solid;
+    h4 {
+        color: #ececece1;
+        font-weight: lighter;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .footer {
+         img {
+            width: 135px;
+         }
+    }
+    
+    .footer__links {
+        img {
+            width: 22px;
+        }
+    }
+    
+    .footer__info {
+        img {
+            width: inherit;
+            height: 18px;
+        }
+        span {
+            font-size: 0.9rem;
+        }
+    }
+    
+    .footer__copywrite {
+        h4 {
+            font-size: 0.9rem;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .footer {
+         img {
+            width: 120px;
+         }
+    }
+    
+    .footer__links {
+        img {
+            width: 19px;
+            margin: 0 5px;
+        }
+    }
+    
+    .footer__info {
+        img {
+            width: inherit;
+            height: 14px;
+        }
+        span {
+            font-size: 0.9rem;
+            margin-left: 10px;
+        }
+    }
+    
+    .footer__copywrite {
+        h4 {
+            font-size: 0.8rem;
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .footer {
+         img {
+            width: 110px;
+         }
+    }
+    
+    .footer__links {
+        img {
+            width: 17px;
+        }
+    }
+    
+    .footer__info {
+        img {
+            width: inherit;
+            height: 13px;
+        }
+        span {
+            font-size: 0.7rem;
+        }
+    }
+    
+    .footer__copywrite {
+        h4 {
+            font-size: 0.75rem;
+        }
+    }
+}
+
+
