@@ -20,7 +20,7 @@ function Home() {
       <Franchise/>
       <Contact/>
       <Maps/>
-      <Footer/> 
+      <Footer/>
     </div>
   );
 }

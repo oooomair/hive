@@ -57,6 +57,19 @@
     }
 }
 
+.accolades__copywrite {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    padding-top: 25px;
+    border-top: #0E2F2E 1px solid;
+    margin: 50px 0 10px;
+    h4 {
+        color: #0E2F2E;
+    }
+}
+
 @media screen and (max-width: 1400px) {
     .accolades {
         h1 {
@@ -107,6 +120,11 @@
             font-size: 0.7rem;
         }
     }
+    .accolades__copywrite {
+        h4 {
+            font-size: 0.9rem;
+        }
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -117,6 +135,11 @@
     }
     .accolades__container {
         grid-template-columns: 1fr 1fr;
+    }
+    .accolades__copywrite {
+        h4 {
+            font-size: 0.8rem;
+        }
     }
 }
 
@@ -157,6 +180,11 @@
         }
         span {
             font-size: 0.5rem;
+        }
+    }
+    .accolades__copywrite {
+        h4 {
+            font-size: 0.7rem;
         }
     }
 }

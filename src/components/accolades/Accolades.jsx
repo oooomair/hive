@@ -40,6 +40,9 @@ const Accolades = () => {
             )
         })}
         </div>
+        <div className="accolades__copywrite">
+            <h4>© 2022 Hive Dubai. All Rights Reserved</h4>
+        </div>
     </div>
   )
 }
