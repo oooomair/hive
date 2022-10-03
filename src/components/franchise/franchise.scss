@@ -86,11 +86,6 @@
     display: grid;
     grid-template-areas: 
     "trademark license training operations ongoing";
-    
-    // grid-template-areas: 
-    // "trademark license"
-    // "training operations"
-    // "ongoing ongoing";
 }
 
 .trademark {
@@ -228,6 +223,9 @@
 }
 
 @media screen and (max-width: 1000px) {
+    .franchise {
+        margin-bottom: 40px;
+    }
     .franchise__title {
         h1 {
             font-size: 2.2rem;

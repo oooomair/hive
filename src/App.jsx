@@ -9,6 +9,9 @@ import Homepage from './components/homepage/Homepage';
 import {Route, Routes} from 'react-router-dom'
 import Accolades from './components/accolades/Accolades';
 import Maps from './components/maps/Maps';
+import Food from './components/eachCard/Food';
+import Drinks from './components/eachCard/Drinks';
+import Desserts from './components/eachCard/Desserts';
 
 function Home() {
   return (
@@ -29,8 +32,11 @@ function App() {
   return (
     <div className="App">
       <Routes>
-      <Route path='/' element={<Home/>} />
-      <Route path='/accolades' element={<Accolades/>} />
+        <Route path='/' element={<Home/>} />
+        <Route path='/accolades' element={<Accolades/>} />
+        <Route path='/foods' element={<Food/>}/>
+        <Route path='/drinks' element={<Drinks/>}/>
+        <Route path='/desserts' element={<Desserts/>}/>
       </Routes>
     </div>
   );

@@ -1,7 +1,16 @@
 import { licsense, manual, ongoing, trademark, training } from '../../const'
 import './franchise.scss'
+import { scroller } from "react-scroll";
 
 const Franchise = () => {
+
+    const scrollToSection = divCss => {
+        scroller.scrollTo(divCss, {
+          duration: 200,
+          delay: 0,
+          smooth: "easeInOutQuart",
+        });
+      }
 
     const franchiseIcons = [
         {
@@ -39,11 +48,11 @@ const Franchise = () => {
         <div className="franchise__top">
             <div className="franchise__v">
                 <h4>Vission</h4>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum quam deserunt dignissimos sit libero architecto accusantium quas nam similique molestiae maiores sint aliquid expedita cumque, dolorem et quod cupiditate inventore.</p>
+                <p>We aim to provide world class services for recreational, social and educational activities to guests of all ages regardless ofethnicity, gender or economic status, with the goal to connect and organically grow the community.</p>
             </div>
             <div className="franchise__m">
                 <h4>Mission</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt iusto, nesciunt modi accusantium, amet laudantium officia iste pariatur asperiores aut debitis! A, debitis quis error facilis eligendi nobis facere eum.</p>
+                <p>To establish an international cafe brandacross GCC that is dedicated to bring the community together through board games.The long term objective is to open 50 outlets through privately owned and franchise stores</p>
             </div>
         </div>
         <div className="franchise__bottom">
@@ -57,7 +66,7 @@ const Franchise = () => {
                 </div>)
                 })}
             </div>
-            <button>Get In Touch</button>
+            <button onClick={() => scrollToSection('contact')}>Get In Touch</button>
         </div>
     </div>
   )

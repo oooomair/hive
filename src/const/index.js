@@ -29,6 +29,9 @@ export { default as locationgreen } from '../assets/location-green.png'
 export { default as mail } from '../assets/mail.png'
 export { default as phone } from '../assets/phone.png'
 export { default as accolade1 } from '../assets/accolade1.png'
+export { default as food1 } from '../assets/food1.png'
+
+
 
 
 

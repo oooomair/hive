@@ -11,12 +11,12 @@ const About = () => {
     p: 'Dedicated team of game masters to help customers choose from our massive Inventory and understand the rules of their game of choice.'
   },
   {
-    pic: eatpic,
+    pic: playpic,
     h3: 'Play',
     p: 'We house over 500+ board game titles ranging from- Strategic, Fun, Party, Trivia, Mystery and more. We’ve got you covered with the right game for your mood.'
   },
   {
-    pic: playpic,
+    pic: eatpic,
     h3: 'Eat',
     p: 'Fuel up while you play! Try one of our grilled sandwiches & wraps, or gulp down our special range of Freak shakes. Mix and match for ultimate snacking!'
   }]
@@ -26,7 +26,7 @@ const About = () => {
       <div className="about__top">
         <div className="about__info">
           <h1>About Us</h1>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus excepturi saepe natus explicabo Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex explicabo ad eum accusantium quos inventore et debitis. Inventore ea incidunt facere debitis natus, consequuntur nam ipsa quae corrupti voluptates ratione? Exercitationem, in vero explicabo autem sapiente similique error ad officia non doloribus praesentium accusamus unde, cumque esse, harum totam quisquam?</p>
+          <p>Hive is dedicated to bring the community together through a very simple idea - Board Games!. I​t's a multi-concept space which includes a wide range of board games, hundreds of books, along with regular workshops and events - t​he modern age’s answer to dwindling social interaction!  Our cafe is ideal for board game enthusiasts – or anyone who wants to have quality time with their friends and family.</p>
           <Link to='/accolades'>
             <button>Accolades</button>
           </Link>

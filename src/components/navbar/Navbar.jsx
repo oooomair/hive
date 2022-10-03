@@ -7,11 +7,11 @@ export const Navbar = () => {
     <div className="navbar">
     <img className='logo' src={hivelogo} alt="logo" />
     <div className="navbar__right">
-    <button>Book a Table</button>
+    <button onClick={() => window.open('https://www.zomatobook.com/widget/makereservation03.aspx?id=81VT1D8C462W', '_blank')} >Book a Table</button>
     <div className="navbar__links">
-        <img src={instagram} alt="" />
-        <img src={tiktok} alt="" />
-        <img src={facebook} alt="" />
+        <img onClick={() => window.open('https://www.instagram.com/hiveboardgamecafe/', '_blank')} src={instagram} alt="" />
+        <img onClick={() => window.open('https://www.tiktok.com/@hiveboardgamecafe?lang=en', '_blank')} src={tiktok} alt="" />
+        <img onClick={() => window.open('https://www.facebook.com/hiveboardgamecafe/', '_blank')} src={facebook} alt="" />
     </div>
     </div>
 </div>
@@ -25,11 +25,11 @@ export const NavbarGreen = () => {
         <img className='logo' src={hivelogogreen} alt="logo" />
       </Link>
       <div className="navbar__right navbar__right-green">
-      <button>Book a Table</button>
+      <button onClick={() => window.open('https://www.zomatobook.com/widget/makereservation03.aspx?id=81VT1D8C462W', '_blank')}>Book a Table</button>
       <div className="navbar__links">
-          <img src={instagramgreen} alt="" />
-          <img src={tiktokgreen} alt="" />
-          <img src={facebookgreen} alt="" />
+          <img onClick={() => window.open('https://www.instagram.com/hiveboardgamecafe/', '_blank')} src={instagramgreen} alt="" />
+          <img onClick={() => window.open('https://www.tiktok.com/@hiveboardgamecafe?lang=en', '_blank')} src={tiktokgreen} alt="" />
+          <img onClick={() => window.open('https://www.facebook.com/hiveboardgamecafe/', '_blank')} src={facebookgreen} alt="" />
       </div>
       </div>
   </div>
