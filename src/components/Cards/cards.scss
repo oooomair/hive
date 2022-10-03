@@ -19,10 +19,35 @@
     padding: 10px;
     height: 430px;
     margin: 0 20px;
+    cursor: pointer;
+
+    &:hover {
+        h2 {
+            &::after {
+                visibility: visible;
+                width: 100%;
+            }
+        }
+    }
 
     h2 {
         font-size: 1.8rem;
         margin: 13px 0 6px;
+        position: relative;
+        width: min-content;
+        align-self: center;
+        padding: 0 0 3px;
+        &:after {
+          content: "";
+          position: absolute;
+          width: 0;
+          height: 3px;
+          bottom: 2px;
+          left: 0;
+          background-color: #0E2F2E;
+          visibility: hidden;
+          transition: all 0.3s ease-in-out;
+        }
     }
     p {
         font-size: 0.9rem;

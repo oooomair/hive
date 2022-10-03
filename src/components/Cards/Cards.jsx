@@ -13,13 +13,13 @@ const Cards = () => {
         </div>
         <div className="cards__card">
             <img src={drinkspic} alt="" />
-            <h2>Food</h2>
+            <h2>Drinks</h2>
             <p> atque error doloremque. Debitis excepturi reprehenderit aspernatur exercitationem perferendis quia dolorem aut labore amet blanditiis. Fugit illo adipisci a?</p>
         </div>
       </div>
         <div className="cards__card">
             <img src={dessertspic} alt="" />
-            <h2>Food</h2>
+            <h2>Desserts</h2>
             <p> atque error doloremque. Debitis excepturi reprehenderit aspernatur exercitationem perferendis quia dolorem aut labore amet blanditiis. Fugit illo adipisci a?</p>
         </div>
     </div>

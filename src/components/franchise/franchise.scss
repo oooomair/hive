@@ -70,6 +70,15 @@
         color: #ececec;
         font-weight: lighter;
         margin-top: 35px;
+        border: 2px solid #0E2F2E;
+        cursor: pointer;
+        transition: 0.4s ease all;
+
+        &:hover {
+            background-color: #0e2f2e00;
+            color: #0E2F2E;
+            font-weight: bold
+        }
     }
 }
 

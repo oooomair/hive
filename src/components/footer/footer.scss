@@ -19,6 +19,12 @@
     img {
         width: 25px;
         margin: 0 10px;
+        transition: 0.3s ease all;
+        cursor: pointer;
+
+        &:hover {
+            transform: translateX(3px);
+        }
     }
 }
 

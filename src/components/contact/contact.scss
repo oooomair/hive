@@ -3,7 +3,7 @@
     width: 1100px;
     justify-content: center;
     text-align: center;
-    margin: 60px 0;
+    margin: 60px 0 100px;
 }
 
 .contact__infos {
@@ -37,7 +37,15 @@
         color: #ececec;
         font-weight: lighter;
         border-radius: 5px;
-        border: none;
+        border: 2px solid #0E2F2E;
+        cursor: pointer;
+        transition: 0.4s ease all;
+
+        &:hover {
+            background-color: #0e2f2e00;
+            color: #0E2F2E;
+            font-weight: bold
+        }
     }
 }
 
@@ -51,6 +59,7 @@
     span {
         font-size: 1.2rem;
         margin-left: 5px;
+        cursor: pointer;
     }
 }
 
@@ -59,6 +68,12 @@
     img {
         height: 32px;
         margin: 0 10px;
+        transition: 0.3s ease all;
+        cursor: pointer;
+
+        &:hover {
+            transform: translateX(5px);
+        }
     }
 }
 
@@ -232,7 +247,7 @@
 
 @media screen and (max-width: 1000px) {
     .contact {
-        margin: 0 0 60px;
+        margin: 0 0 80px;
         width: 400px;
         flex-flow: column ;
     }

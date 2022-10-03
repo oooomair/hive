@@ -1,6 +1,7 @@
 import { facebookgreen, instagramgreen, locationgreen, mailgreen, phonegreen, tiktokgreen } from '../../const'
 import './contact.scss'
 
+
 const Contact = () => {
 
     const contactInfo = [

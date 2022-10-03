@@ -1,5 +1,9 @@
 export { default as hivelogo } from '../assets/hive-logo.png'
+export { default as hivelogogreen } from '../assets/hivelogogreen.png'
 export { default as home1 } from '../assets/home1.png'
+export { default as home2 } from '../assets/home2.png'
+export { default as home3 } from '../assets/home3.png'
+export { default as home4 } from '../assets/home4.png'
 export { default as instagram } from '../assets/instagram.png'
 export { default as facebook } from '../assets/facebook.png'
 export { default as tiktok } from '../assets/tiktok.png'
@@ -24,6 +28,8 @@ export { default as phonegreen } from '../assets/phone-green.png'
 export { default as locationgreen } from '../assets/location-green.png'
 export { default as mail } from '../assets/mail.png'
 export { default as phone } from '../assets/phone.png'
+export { default as accolade1 } from '../assets/accolade1.png'
+
 
 
 

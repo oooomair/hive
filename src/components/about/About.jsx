@@ -1,5 +1,6 @@
 import './about.scss'
 import {aboutpic, learnpic, eatpic, playpic} from '../../const/index'
+import { Link } from 'react-router-dom'
 
 
 const About = () => {
@@ -26,7 +27,9 @@ const About = () => {
         <div className="about__info">
           <h1>About Us</h1>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus excepturi saepe natus explicabo Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex explicabo ad eum accusantium quos inventore et debitis. Inventore ea incidunt facere debitis natus, consequuntur nam ipsa quae corrupti voluptates ratione? Exercitationem, in vero explicabo autem sapiente similique error ad officia non doloribus praesentium accusamus unde, cumque esse, harum totam quisquam?</p>
-          <button>Accolades</button>
+          <Link to='/accolades'>
+            <button>Accolades</button>
+          </Link>
         </div>
         <div className="about__pic">
           <img src={aboutpic} alt="" />
