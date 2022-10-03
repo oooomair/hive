@@ -24,31 +24,31 @@ const Contact = () => {
     const dayTiming = [
         {
             day: 'Monday',
-            time: '11am - 9pm'
+            time: '12pm - 12am'
         },
         {
             day: 'Tuesday',
-            time: '11am - 9pm'
+            time: '12pm - 12am'
         },
         {
             day: 'Wednesday',
-            time: '11am - 9pm'
+            time: '12pm - 12am'
         },
         {
             day: 'Thursday',
-            time: '11am - 9pm'
+            time: '12pm - 12am'
         },
         {
             day: 'Friday',
-            time: '11am - 9pm'
+            time: '10am - 2am'
         },
         {
             day: 'Saturday',
-            time: '11am - 9pm'
+            time: '10am - 2am'
         },
         {
             day: 'Sunday',
-            time: '11am - 9pm'
+            time: '10am - 2am'
         }
     ]
 

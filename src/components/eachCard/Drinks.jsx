@@ -1,40 +1,40 @@
-import { food1 } from '../../const'
+import { drink1, drink2, drink3, drink4 } from '../../const'
 import EachCard from './EachCard'
 
-const Food = () => {
+const Drink = () => {
 
     const drinks = {
         title: 'Drinks',
         items: [
             {
-                span: 'Double Espresso',
+                span: 'Speciality Cofee',
                 p: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, quidem? Lorem ipsum dolor sit amet.'
             },
             {
-                span: 'Double Espresso',
+                span: 'Frappucino',
                 p: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, quidem? Lorem ipsum dolor sit amet.'
             },
             {
-                span: 'Double Espresso',
+                span: 'Smoothies',
                 p: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, quidem? Lorem ipsum dolor sit amet.'
             },
             {
-                span: 'Double Espresso',
+                span: 'Hot Chocolate',
                 p: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, quidem? Lorem ipsum dolor sit amet.'
             },
             {
-                span: 'Double Espresso',
+                span: 'Tea',
                 p: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, quidem? Lorem ipsum dolor sit amet.'
             },
             {
-                span: 'Double Espresso',
+                span: 'Moktails',
                 p: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, quidem? Lorem ipsum dolor sit amet.'
             }
         ],
-        images: [food1, food1, food1, food1]
+        images: [drink1, drink2, drink3, drink4]
     }
     
   return <EachCard item={drinks}/>
 }
 
-export default Food
+export default Drink

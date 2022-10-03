@@ -30,6 +30,20 @@ export { default as mail } from '../assets/mail.png'
 export { default as phone } from '../assets/phone.png'
 export { default as accolade1 } from '../assets/accolade1.png'
 export { default as food1 } from '../assets/food1.png'
+export { default as food2 } from '../assets/food2.png'
+export { default as food3 } from '../assets/food3.png'
+export { default as food4 } from '../assets/food4.png'
+export { default as drink1 } from '../assets/drink1.png'
+export { default as drink2 } from '../assets/drink2.png'
+export { default as drink3 } from '../assets/drink3.png'
+export { default as drink4 } from '../assets/drink4.png'
+export { default as dessert1 } from '../assets/dessert1.png'
+export { default as dessert2 } from '../assets/dessert2.png'
+export { default as dessert3 } from '../assets/dessert3.png'
+export { default as dessert4 } from '../assets/dessert4.png'
+
+
+
 
 
 

@@ -26,7 +26,7 @@ const Cards = () => {
           <div className="cards__card">
               <img src={dessertspic} alt="" />
               <h2>Desserts</h2>
-              <p> Multiple Dessert categories ranging from Delicious cakes to elegant pastries and much more</p>
+              <p> Multiple Dessert categories</p>
           </div>
         </Link>
     </div>
