@@ -5,32 +5,7 @@ const Dessert = () => {
 
     const desserts = {
         title: 'Desserts',
-        items: [
-            {
-                span: 'Brownies',
-                p: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, quidem? Lorem ipsum dolor sit amet.'
-            },
-            {
-                span: 'Cheesecakes',
-                p: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, quidem? Lorem ipsum dolor sit amet.'
-            },
-            {
-                span: 'Waffles',
-                p: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, quidem? Lorem ipsum dolor sit amet.'
-            },
-            {
-                span: 'Ice cream',
-                p: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, quidem? Lorem ipsum dolor sit amet.'
-            },
-            {
-                span: 'Churros',
-                p: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, quidem? Lorem ipsum dolor sit amet.'
-            },
-            {
-                span: 'Mono Cakes',
-                p: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, quidem? Lorem ipsum dolor sit amet.'
-            }
-        ],
+        items: ['Brownies', 'Cheesecakes', 'Waffles', 'Ice cream', 'Churros', 'Mono Cakes', 'Pancakes'],
         images: [dessert1, dessert2, dessert3, dessert4]
     }
     

@@ -11,8 +11,7 @@ const EachCard = ({item}) => {
                 {item.items.map(item => {
                     return(
                         <div className="eachcard__menu-item">
-                            <span>{item.span}</span>
-                            <p>{item.p}</p>
+                            <span>{item}</span>
                         </div>
                     )
                 })}

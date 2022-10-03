@@ -5,32 +5,7 @@ const Food = () => {
 
     const foods = {
         title: 'Foods',
-        items: [
-            {
-                span: 'Breakfast',
-                p: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, quidem? Lorem ipsum dolor sit amet.'
-            },
-            {
-                span: 'Burgers',
-                p: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, quidem? Lorem ipsum dolor sit amet.'
-            },
-            {
-                span: 'Sandwiches & Wraps',
-                p: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, quidem? Lorem ipsum dolor sit amet.'
-            },
-            {
-                span: 'Pasta',
-                p: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, quidem? Lorem ipsum dolor sit amet.'
-            },
-            {
-                span: 'Pizza',
-                p: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, quidem? Lorem ipsum dolor sit amet.'
-            },
-            {
-                span: 'Vegan Options',
-                p: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, quidem? Lorem ipsum dolor sit amet.'
-            }
-        ],
+        items: ['Breakfast', 'Burgers', 'Sandwiches & Wraps', 'Pasta', 'Pizza', 'Vegan Options', 'Salads', 'Light Bites'],
         images: [food1, food2, food3, food4]
     }
     
