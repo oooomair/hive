@@ -1,29 +1,33 @@
-import { accolade1 } from '../../const'
+import { ac1, ac2, ac3, ac4, ac5, ac6 } from '../../const'
 import { NavbarGreen } from '../navbar/Navbar'
 import './accolades.scss'
 const Accolades = () => {
 
     const accolades = [
         {
-            img: accolade1,
+            img: ac6,
             span: 'Your home your choice winners 2021'
         },
         {
-            img: accolade1,
+            img: ac2,
             span: 'Your home your choice winners 2021'
         },
         {
-            img: accolade1,
+            img: ac3,
             span: 'Your home your choice winners 2021'
         },
         {
-            img: accolade1,
+            img: ac4,
             span: 'Your home your choice winners 2021'
         },
         {
-            img: accolade1,
+            img: ac1,
             span: 'Your home your choice winners 2021'
-        }
+        },
+        {
+            img: ac5,
+            span: 'Your home your choice winners 2021'
+        },
     ]
 
   return (

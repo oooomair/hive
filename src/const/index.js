@@ -28,7 +28,6 @@ export { default as phonegreen } from '../assets/phone-green.png'
 export { default as locationgreen } from '../assets/location-green.png'
 export { default as mail } from '../assets/mail.png'
 export { default as phone } from '../assets/phone.png'
-export { default as accolade1 } from '../assets/accolade1.png'
 export { default as food1 } from '../assets/food1.png'
 export { default as food2 } from '../assets/food2.png'
 export { default as food3 } from '../assets/food3.png'
@@ -41,6 +40,13 @@ export { default as dessert1 } from '../assets/dessert1.png'
 export { default as dessert2 } from '../assets/dessert2.png'
 export { default as dessert3 } from '../assets/dessert3.png'
 export { default as dessert4 } from '../assets/dessert4.png'
+export { default as ac1 } from '../assets/ac1.png'
+export { default as ac2 } from '../assets/ac2.png'
+export { default as ac3 } from '../assets/ac3.png'
+export { default as ac4 } from '../assets/ac4.png'
+export { default as ac5 } from '../assets/ac5.png'
+export { default as ac6 } from '../assets/ac6.png'
+
 
 
 

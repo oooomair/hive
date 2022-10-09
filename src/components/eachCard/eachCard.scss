@@ -26,15 +26,15 @@
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     align-items: center;
-    margin: 40px 0;
+    margin: 60px 0;
 }
 
 .eachcard__menu {
     display: flex;
     flex-flow: column;
-    width: 480px;
+    width: 450px;
     background-color: #0E2F2E;
-    height: 550px;
+    height: 520px;
     padding: 30px 40px;
     margin-right: 50px;
 }
@@ -45,7 +45,8 @@
     margin: 10px 0;
     span {
         color: #ececec;
-        font-size: 1.8rem;
+        font-size: 1.45rem;
+        font-weight: lighter;
     }
 }
 
@@ -55,7 +56,7 @@
     gap: 20px;
     height: max-content;
     img {
-        height: 210px;
+        height: 180px;
     }
 }
 
@@ -82,14 +83,14 @@
         }
     }
     .eachcard__menu {
-        width: 460px;
-        height: 530px;
+        width: 440px;
+        height: 510px;
         margin-right: 40px;
     }
     
     .eachcard__menu-item {
         span {
-            font-size: 1.7rem;
+            font-size: 1.35rem;
         }
         p {
             font-size: 0.6rem;
@@ -98,7 +99,7 @@
     
     .eachcard__img {
         img {
-            height: 180px;
+            height: 170px;
         }
     }
 }
@@ -110,15 +111,15 @@
         }
     }
     .eachcard__menu {
-        width: 400px;
-        height: 500px;
+        width: 380px;
+        height: 460px;
         padding: 30px 40px;
         margin-right: 30px;
     }
     
     .eachcard__menu-item {
         span {
-            font-size: 1.6rem;
+            font-size: 1.2rem;
         }
     }
     
@@ -139,15 +140,14 @@
         }
     }
     .eachcard__menu {
-        width: 360px;
-        height: 470px;
-        padding: 30px;
+        width: 340px;
+        height: 420px;
         margin-right: 10px;
     }
     
     .eachcard__menu-item {
         span {
-            font-size: 1.1rem;
+            font-size: 1rem;
         }
     }
     
@@ -161,7 +161,7 @@
     
     .eachcard__copywrite {
         h4 {
-            font-size: 1.5rem;
+            font-size: 0.8rem;
         }
     }
 }
@@ -175,18 +175,19 @@
 
     .eachcard__main {
         grid-template-columns: 1fr;
+        margin: 40px 0;
         row-gap: 30px;
     }
 
     .eachcard__menu {
-        width: 360px;
-        height: 460px;
+        width: 350px;
+        height: 420px;
         margin-right: 0;
     }
     
     .eachcard__menu-item {
         span {
-            font-size: 1.1rem;
+            font-size: 1rem;
         }
     }
     
@@ -198,7 +199,7 @@
     
     .eachcard__copywrite {
         h4 {
-            font-size: 1.4rem;
+            font-size: 0.75em;
         }
     }
 }
@@ -211,13 +212,13 @@
     }
 
     .eachcard__menu {
-        width: 330px;
-        height: 450px;
+        width: 310px;
+        height: 400px;
     }
     
     .eachcard__menu-item {
         span {
-            font-size: 1rem;
+            font-size: 0.95rem;
         }
     }
     
@@ -229,7 +230,7 @@
     }
     .eachcard__copywrite {
         h4 {
-            font-size: 1.3rem;
+            font-size: 0.7rem;
         }
     }   
 }
@@ -242,14 +243,14 @@
     }
 
     .eachcard__menu {
-        width: 300px;
-        height: 430px;
-        padding: 30px 20px;
+        width: 280px;
+        height: 380px;
+        padding: 30px;
     }
     
     .eachcard__menu-item {
         span {
-            font-size: 1.1rem;
+            font-size: 0.9rem;
         }
     }
     
