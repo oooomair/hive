@@ -1,4 +1,5 @@
 import { home1, home2, home3, home4 } from '../../const/index'
+import Carousel from '../carousel/Carousel'
 import {Navbar} from '../navbar/Navbar'
 import './homepage.scss'
  
@@ -8,7 +9,7 @@ const Homepage = () => {
 
   return (
     <div className='homepage'>
-      <img className='home-img' src={home1} alt="home1" />
+      <Carousel/>
       <Navbar/>
         <h1>Hive Board Game Cafe</h1>
     </div>
