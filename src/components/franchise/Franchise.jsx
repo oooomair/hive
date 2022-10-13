@@ -47,7 +47,7 @@ const Franchise = () => {
         </div>
         <div className="franchise__top">
             <div className="franchise__v">
-                <h4>Vission</h4>
+                <h4>Vision</h4>
                 <p>We aim to provide world class services for recreational, social and educational activities to guests of all ages regardless ofethnicity, gender or economic status, with the goal to connect and organically grow the community.</p>
             </div>
             <div className="franchise__m">
