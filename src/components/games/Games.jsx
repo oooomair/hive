@@ -6,7 +6,7 @@ const Games = () => {
     <div className='games'>
         <div className="games__info">
             <h2>Play Your Favorite Games!</h2>
-            <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor  voluptatem fugit distinctio dolorum aperiam! adipisicing elit. Delectus voluptatum obcaecati minus possimus, eum rerum consectetur, magnam enim officiis fugiat distinctio? Adipisci, laborum. Ipsa beatae at perferendis dolorum nam, quia facilis. Perferendis, veniam! Porro inventore sunt dolorem hic error, consectetur in, quas officia animi saepe similique neque quod suscipit corrupti!</p>
+            <p>Whether you enjoy the classics, mind boggling strategy and mystery, or simple card games, there's always something for you at our Cafe. Enjoy our collection of 500+ games, learn new ones recommended by our game masters or play the games you know in all their different versions. With new arrivals every month, there is very little room for anyone to get bored. Bring along kids, family and friends and prepare for unlimited fun.</p>
         </div>
         <div className="games__pic">
             <img src={gamespic} alt="" />

@@ -11,7 +11,6 @@ const Homepage = () => {
     <div className='homepage'>
       <Carousel/>
       <Navbar/>
-        <h1>Hive Board Game Cafe</h1>
     </div>
   )
 }

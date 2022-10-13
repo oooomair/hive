@@ -1,34 +1,7 @@
-import { ac1, ac2, ac3, ac4, ac5, ac6 } from '../../const'
+import { Link } from 'react-router-dom'
 import { NavbarGreen } from '../navbar/Navbar'
 import './accolades.scss'
-const Accolades = () => {
-
-    const accolades = [
-        {
-            img: ac6,
-            span: 'Your home your choice winners 2021'
-        },
-        {
-            img: ac2,
-            span: 'Your home your choice winners 2021'
-        },
-        {
-            img: ac3,
-            span: 'Your home your choice winners 2021'
-        },
-        {
-            img: ac4,
-            span: 'Your home your choice winners 2021'
-        },
-        {
-            img: ac1,
-            span: 'Your home your choice winners 2021'
-        },
-        {
-            img: ac5,
-            span: 'Your home your choice winners 2021'
-        },
-    ]
+const Accolades = ({accolades}) => {
 
   return (
     <div className='accolades'>
@@ -38,8 +11,9 @@ const Accolades = () => {
         {accolades.map(accolade => {
             return(
                 <div className='accolades__accolade'>
-                    <img src={accolade.img} alt="" />
-                    <span>{accolade.span}</span>
+                    <Link to={`/eachAccolade/${accolade.id}`}>
+                        <img src={accolade.img} alt="" />
+                    </Link>
                 </div>
             )
         })}

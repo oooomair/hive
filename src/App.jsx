@@ -12,6 +12,8 @@ import Maps from './components/maps/Maps';
 import Food from './components/eachCard/Food';
 import Drinks from './components/eachCard/Drinks';
 import Desserts from './components/eachCard/Desserts';
+import EachAccolade from './components/eachAccolade/EachAccolade';
+import { ac1, ac2, ac3, ac4, ac5, ac6 } from './const'
 
 function Home() {
   return (
@@ -29,11 +31,40 @@ function Home() {
 }
 
 function App() {
+
+  const accolades = [
+    {
+        img: ac6,
+        id: '1'
+    },
+    {
+        img: ac2,
+        id: '2'
+    },
+    {
+        img: ac3,
+        id: '3'
+    },
+    {
+        img: ac4,
+        id: '4'
+    },
+    {
+        img: ac1,
+        id: '5'
+    },
+    {
+        img: ac5,
+        id: '6'
+    },
+]
+
   return (
     <div className="App">
       <Routes>
         <Route path='/' element={<Home/>} />
-        <Route path='/accolades' element={<Accolades/>} />
+        <Route path='/accolades' element={<Accolades accolades={accolades}/>} />
+        <Route path='/eachAccolade/:id' element={<EachAccolade accolades={accolades}/>} />
         <Route path='/foods' element={<Food/>}/>
         <Route path='/drinks' element={<Drinks/>}/>
         <Route path='/desserts' element={<Desserts/>}/>

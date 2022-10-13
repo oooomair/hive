@@ -7,7 +7,7 @@ const Maps = () => {
     const { isLoaded, loadError } = useLoadScript({
         googleMapsApiKey: process.env.MAPS_API
       })
-      const center = useMemo(() => ({lat: 25.28337413723937, lng: 55.38785676808126}), [])
+      const center = useMemo(() => ({lat: 25.097457408827974, lng: 55.168799270199344}), [])
       if (!isLoaded) return <div>Loading...</div>;
       if (loadError) return 'Error loading maps';
       const containerStyle = {
