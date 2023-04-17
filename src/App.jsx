@@ -24,7 +24,6 @@ function Home() {
       <Games/>
       <Franchise/>
       <Contact/>
-      <Maps/>
       <Footer/>
     </div>
   );

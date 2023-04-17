@@ -7,7 +7,7 @@ export const Navbar = () => {
     <div className="navbar">
     <img className='logo' src={hivelogo} alt="logo" />
     <div className="navbar__right">
-    <button onClick={() => window.open('https://www.zomatobook.com/widget/makereservation03.aspx?id=81VT1D8C462W', '_blank')} >Book a Table</button>
+    <button onClick={() => window.open('https://www.zomato.com/dubai/hive-board-game-cafe-the-greens/book', '_blank')} >Book a Table</button>
     <div className="navbar__links">
         <img onClick={() => window.open('https://www.instagram.com/hiveboardgamecafe/', '_blank')} src={instagram} alt="" />
         <img onClick={() => window.open('https://www.tiktok.com/@hiveboardgamecafe?lang=en', '_blank')} src={tiktok} alt="" />
@@ -25,7 +25,7 @@ export const NavbarGreen = () => {
         <img className='logo' src={hivelogogreen} alt="logo" />
       </Link>
       <div className="navbar__right navbar__right-green">
-      <button onClick={() => window.open('https://www.zomatobook.com/widget/makereservation03.aspx?id=81VT1D8C462W', '_blank')}>Book a Table</button>
+      <button onClick={() => window.open('https://www.zomato.com/dubai/hive-board-game-cafe-the-greens/book', '_blank')}>Book a Table</button>
       <div className="navbar__links">
           <img onClick={() => window.open('https://www.instagram.com/hiveboardgamecafe/', '_blank')} src={instagramgreen} alt="" />
           <img onClick={() => window.open('https://www.tiktok.com/@hiveboardgamecafe?lang=en', '_blank')} src={tiktokgreen} alt="" />
