@@ -64,7 +64,7 @@ const Contact = () => {
                 </div>
                 )
             })}
-            <button onClick={() => window.open('https://www.zomatobook.com/widget/makereservation03.aspx?id=81VT1D8C462W', '_blank')} >Book a Table</button>
+            <button onClick={() => window.open('https://www.zomato.com/dubai/hive-board-game-cafe-the-greens/book', '_blank')} >Book a Table</button>
             <div className="contact__links">
                 <img onClick={() => window.open('https://www.instagram.com/hiveboardgamecafe/', '_blank')} src={instagramgreen} alt="" />
                 <img onClick={() => window.open('https://www.tiktok.com/@hiveboardgamecafe?lang=en', '_blank')} src={tiktokgreen} alt="" />
