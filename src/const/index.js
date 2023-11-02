@@ -47,6 +47,8 @@ export { default as ac4 } from '../assets/ac4.png'
 export { default as ac5 } from '../assets/ac5.png'
 export { default as ac6 } from '../assets/ac6.png'
 export { default as close } from '../assets/close-icon.png'
+export { default as event1 } from '../assets/event1.png'
+export { default as event2 } from '../assets/event2.png'
 
 
 

@@ -1,0 +1,125 @@
+.events {
+    display: flex;
+    width: 1100px;
+    justify-content: center;
+    text-align: center;
+    margin: 60px 0;
+}
+
+.event {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 100%;
+    margin: 0 20px 20px 20px;
+    background-color: #e3e3e3;
+
+    img {
+        width: 100%;
+        border-radius: 1px;
+    }
+
+    p {
+        color: #0E2F2E;
+        margin: 20px 0 50px 0;
+        width: 93%;
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .events {
+        width: 950px;
+    }
+
+    .event {
+        p {
+            margin: 20px 0 40px 0;
+            width: 91%;
+            font-size: 1rem;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .events {
+        width: 850px;
+    }
+
+    .event {
+        p {
+            width: 90%;
+            font-size: 0.85rem;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .events {
+        width: 750px;
+    }
+
+    .event {
+        p {
+            width: 90%;
+            font-size: 0.8rem;
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .events {
+        width: 380px;
+        flex-flow: column;
+        align-items: center;
+    }
+
+    .event {
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .events {
+        width: 320px;
+    }
+
+    .event {
+        p {
+            font-size: 0.75rem;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .events {
+        width: 300px;
+    }
+
+    .event {
+        margin: 20px;
+
+        p {
+            width: 90%;
+            font-size: 0.75rem;
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .events {
+        width: 270px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .events {
+        width: 250px;
+    }
+
+    .event {
+        p {
+            font-size: 0.7rem;
+        }
+    }
+}
